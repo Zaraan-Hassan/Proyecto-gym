@@ -1,0 +1,114 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    background-color: #efefef;
+}
+
+h1{
+    padding-left: 5px;
+
+}
+
+header{
+    padding: 48px;
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    line-height: 48px;
+    border-radius: 0px 0px 15px 15px;
+    background-color: black;
+
+}
+
+section article{
+    margin: 2rem 0;
+    cursor: pointer;
+    padding: 0.25rem 0;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: all 0.8s ease;
+}
+
+.Abajo-0{
+    color: #222;
+    display: flex;
+    flex-direction: row;
+    margin: auto 0;
+    align-content: center;
+    border-radius: 8px 8px 8px 8px;
+    background-color: whitesmoke;
+}
+
+.Abajo-0:hover{
+    transition: all 2s  ease;
+    color:rgba(128, 128, 128, 0.76);
+}
+
+.item-1{
+    cursor: pointer;
+    padding-left: 15px;
+}
+
+.item-2{
+    
+    cursor: pointer;
+    padding-left: 15px;
+
+}
+
+.item-3{
+    cursor: pointer;
+    padding-left: 15px;
+
+}
+
+.item-4{
+    cursor: pointer;
+    padding-left: 15px;
+
+}
+
+section article:hover{
+    box-shadow: 0 0.1rem 0.5rem rgb(0, 0, 0,0.4);
+}
+
+section article h2, section article p{
+    margin: 1rem;
+}
+
+.post img{
+    width: 300px;
+    height: 260px;
+    padding-left: 30px;
+    border-radius: 5px;
+}
+
+footer{
+    height: 40px;
+    color: white;
+    line-height: 38px;
+    background-color: #222;
+    border-radius: 6px 6px 0px 0px;
+}
+
+footer section{
+    float: right;
+}
+ 
+footer p{
+    margin: 0px;
+    padding-left: 5px;
+}
+
+footer a{
+    color: white;
+    padding-right: 5px;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+footer a:hover{
+    color:gray;
+}
